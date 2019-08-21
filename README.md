@@ -51,15 +51,7 @@ In the current example, using 64 instead of 96 works -- it is a bit slower but d
 #### Run the following command to perform a search progress on CIFAR10.
 
 ```
-python train_search.py \\
-       --tmp_data_dir /path/to/your/data \\
-       --save log_path \\
-       --add_layers 6 \\
-       --add_layers 12 \\
-       --dropout_rate 0.1 \\
-       --dropout_rate 0.4 \\
-       --dropout_rate 0.7 \\
-       --note note_of_this_run
+python train_search.py  --tmp_data_dir /home/liuchuan/coder/project/data/Code/data  --save log_path  --add_layers 6  --add_layers 12  --dropout_rate 0.1  --dropout_rate 0.4  --dropout_rate 0.7  --note note_of_this_run
 Add --cifar100 if search on CIFAR100.
 ```
 
