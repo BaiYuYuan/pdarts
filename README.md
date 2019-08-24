@@ -65,12 +65,7 @@ For the parameters, please see our paper (we would provided more explanations in
 ###### Here is the evaluation on CIFAR10/100:
 
 ```
-python train_cifar.py \\
-       --tmp_data_dir /path/to/your/data \\
-       --auxiliary \\
-       --cutout \\
-       --save log_path \\
-       --note note_of_this_run
+python train_cifar.py  --tmp_data_dir /path/to/your/data  --auxiliary  --cutout  --save log_path  --note note_of_this_run
 Add --cifar100 if evaluating on CIFAR100.
 ```
 
